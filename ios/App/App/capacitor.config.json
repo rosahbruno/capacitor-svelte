@@ -1,0 +1,6 @@
+{
+	"appId": "com.rosahbruno.capacitor",
+	"appName": "capacitor-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,71 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "_app/immutable/start-b391dc35.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-6a3a31c2.js",
+      "_preload-helper-c28b9807.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "_index-e55f2986.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "_app/immutable/layout.svelte-961779fa.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6a3a31c2.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "_app/immutable/error.svelte-2612e596.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6a3a31c2.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "_app/immutable/pages/index.svelte-de358cdb.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6a3a31c2.js",
+      "_index-e55f2986.js",
+      "_preload-helper-c28b9807.js"
+    ]
+  },
+  "_index-6a3a31c2.js": {
+    "file": "_app/immutable/chunks/index-6a3a31c2.js"
+  },
+  "_preload-helper-c28b9807.js": {
+    "file": "_app/immutable/chunks/preload-helper-c28b9807.js"
+  },
+  "_index-e55f2986.js": {
+    "file": "_app/immutable/chunks/index-e55f2986.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6a3a31c2.js",
+      "_preload-helper-c28b9807.js"
+    ],
+    "dynamicImports": [
+      "node_modules/@capacitor/geolocation/dist/esm/web.js"
+    ]
+  },
+  "node_modules/@capacitor/geolocation/dist/esm/web.js": {
+    "file": "_app/immutable/chunks/web-d1b0d719.js",
+    "src": "node_modules/@capacitor/geolocation/dist/esm/web.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-e55f2986.js",
+      "_index-6a3a31c2.js",
+      "_preload-helper-c28b9807.js"
+    ]
+  }
+}
